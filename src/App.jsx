@@ -72,7 +72,7 @@ function App() {
       <div className="shop" style={{display:cart? 'flex' : 'none'}}>
       
         <div className="item">
-          <h1>{item1}</h1>
+          <h1>item 1 {item1}</h1>
           <button 
             onClick={() => dispatch(remove1())}
             className="material-symbols-outlined"
@@ -82,7 +82,7 @@ function App() {
 
         </div>
         <div className="item">
-          <h1>{item2}</h1>
+          <h1>item 2 {item2}</h1>
           <button
             onClick={() => dispatch(remove2())}
             className="material-symbols-outlined"
@@ -92,7 +92,7 @@ function App() {
 
         </div>
         <div className="item">
-          <h1>{item3}</h1>
+          <h1> item 3 {item3}</h1>
           <button
             onClick={() => dispatch(remove3())}
             className="material-symbols-outlined"
