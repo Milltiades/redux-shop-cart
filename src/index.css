@@ -30,6 +30,7 @@ body {
   min-width: 320px;
   min-height: 100vh;
   overflow: hidden;
+  box-sizing: border-box;
 }
 
 h1 {
@@ -92,8 +93,10 @@ button:focus-visible {
   padding: 10px;
   width: 100%;
   align-items: center;
+
+  width: 100%;
   @media (width < 890px) {
-    width: 80vw; 
+    width: 86vw; 
     padding: 0 ;
     margin-left: 40px
  }
